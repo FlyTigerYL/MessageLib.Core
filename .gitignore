@@ -5,3 +5,5 @@
 /src/MessageLib.Core/obj
 /src/MessageLib.Core/.vs
 /src/MessageLib.Core/bin
+/src/ConsoleAppTest/bin/Debug/netcoreapp2.2
+/src/ConsoleAppTest/obj
