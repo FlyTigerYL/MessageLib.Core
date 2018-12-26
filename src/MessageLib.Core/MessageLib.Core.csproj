@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>MessageLib.Core</AssemblyName>
+    <PackageId>MessageLib.Core.2.X</PackageId>
+    <Authors>zhujiaDeveloper</Authors>
+    <Company>广西华建信息科技股份公司</Company>
+    <Description>迁移2.0</Description>
+	<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Packages\**" />
+    <EmbeddedResource Remove="Packages\**" />
+    <None Remove="Packages\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EasyNetQ" Version="3.3.6" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="Quartz" Version="3.0.7" />
+    <PackageReference Include="System.ComponentModel.EventBasedAsync" Version="4.0.11" />
+  </ItemGroup>
+
+</Project>

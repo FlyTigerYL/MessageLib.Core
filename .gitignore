@@ -1,0 +1,7 @@
+/.vs
+/src/.vs
+/src/ConsoleAppTest/ConsoleAppTest.sln
+/src/ConsoleAppTest/.vs
+/src/MessageLib.Core/obj
+/src/MessageLib.Core/.vs
+/src/MessageLib.Core/bin
