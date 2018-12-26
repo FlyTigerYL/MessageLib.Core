@@ -1,0 +1,2 @@
+# MessageLib.Core
+RabbitMQ
